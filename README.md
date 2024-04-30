@@ -28,7 +28,7 @@ git clone https://github.com/leoMirandaa/shadcn-vue-landing-page.git
 2. Go into project
 
 ```bash
-cd shadcn-landing-page
+cd shadcn-vue-landing-page
 ```
 
 3. Install dependencies
