@@ -3,7 +3,7 @@
 ## <a href="https://www.shadcn-vue.com/" target="_blank">Shadcn-Vue</a> + <a href="https://vuejs.org/" target="_blank">Vue.js</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
 
 ![Alt text](./public/demo-img.jpg)
-Live demo is now available: <a href="shadcn-vue-landing-page.vercel.app" target="_blank">Live Demo</a>
+Live demo is now available: <a href="https://shadcn-vue-landing-page.vercel.app" target="_blank">Live Demo</a>
 
 ## Sections
 
