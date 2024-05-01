@@ -7,10 +7,7 @@ import Hero from "./components/Hero.vue";
   <Navbar />
   <Hero />
 
-  <div
-    id="faq"
-    class="flex flex-col items-center justify-center pt-12"
-  >
+  <div class="flex flex-col items-center justify-center pt-12">
     <h2 class="text-center text-2xl text-muted-foreground pb-24">
       New sections in progress...
     </h2>
