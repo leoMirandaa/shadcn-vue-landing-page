@@ -42,39 +42,40 @@ import { ArrowRight } from "lucide-vue-next";
         </p>
 
         <div class="space-y-4 md:space-y-0 md:space-x-4">
-          <Button class="w-5/6 md:w-1/4 font-bold mb-4 md:mb-0 group/arrow"
-            >Get Started
+          <Button class="w-5/6 md:w-1/4 font-bold mb-4 md:mb-0 group/arrow">
+            Get Started
             <ArrowRight
               class="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform"
             />
           </Button>
 
-          <a
-            href="https://github.com/leoMirandaa/shadcn-vue-landing-page.git"
-            target="_blank"
+          <Button
+            as-child
+            variant="secondary"
           >
-            <Button
-              variant="secondary"
-              class="w-5/6 md:w-1/4"
+            <a
+              href="https://github.com/leoMirandaa/shadcn-vue-landing-page.git"
+              target="_blank"
+              >Github respository</a
             >
-              Github repository
-            </Button>
-          </a>
+          </Button>
         </div>
       </div>
 
       <div class="relative group mt-14">
+        <!-- gradient shadow -->
         <div
           class="absolute top-2 lg:-top-8 left-1/2 transform -translate-x-1/2 w-[90%] mx-auto h-24 lg:h-80 bg-primary/50 rounded-full blur-3xl"
         ></div>
         <img
           class="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-t-primary/30"
           :src="
-            mode == 'light' ? 'hero-image-light.jpg' : 'hero-image-dark.jpg'
+            mode == 'light' ? 'hero-image-light.jpeg' : 'hero-image-dark.jpeg'
           "
-          alt="hero-image"
+          alt="dashboard using shadcn-vue"
         />
 
+        <!-- gradient effect img -->
         <div
           class="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-background/0 via-background/50 to-background rounded-lg"
         ></div>
