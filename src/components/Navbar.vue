@@ -9,13 +9,10 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import {
   Sheet,
-  SheetClose,
   SheetContent,
-  SheetDescription,
   SheetFooter,
   SheetHeader,
   SheetTitle,
@@ -121,11 +118,16 @@ const featureList: FeatureProps[] = [
               <Button
                 v-for="{ href, label } in routeList"
                 :key="label"
+                as-child
                 variant="ghost"
                 class="justify-start text-base"
-                :to="href"
               >
-                {{ label }}
+                <a
+                  @click="isOpen = false"
+                  :href="href"
+                >
+                  {{ label }}
+                </a>
               </Button>
             </div>
           </div>
