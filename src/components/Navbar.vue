@@ -1,6 +1,9 @@
 <script lang="ts" setup>
+import { ref } from "vue";
+
 import { useColorMode } from "@vueuse/core";
 const mode = useColorMode();
+mode.value = "dark";
 
 import {
   NavigationMenu,
@@ -18,6 +21,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
@@ -69,6 +73,8 @@ const featureList: FeatureProps[] = [
       "Make your lead capture form visually appealing and strategically.",
   },
 ];
+
+const isOpen = ref<boolean>(false);
 </script>
 
 <template>
@@ -90,9 +96,12 @@ const featureList: FeatureProps[] = [
     >
     <!-- Mobile -->
     <div class="flex items-center lg:hidden">
-      <Sheet>
+      <Sheet v-model:open="isOpen">
         <SheetTrigger as-child>
-          <Menu class="cursor-pointer" />
+          <Menu
+            @click="isOpen = true"
+            class="cursor-pointer"
+          />
         </SheetTrigger>
 
         <SheetContent
@@ -178,11 +187,13 @@ const featureList: FeatureProps[] = [
             <Button
               v-for="{ href, label } in routeList"
               :key="label"
+              as-child
               variant="ghost"
               class="justify-start text-base"
-              to="#"
             >
-              {{ label }}
+              <a :href="href">
+                {{ label }}
+              </a>
             </Button>
           </NavigationMenuLink>
         </NavigationMenuItem>
@@ -191,17 +202,21 @@ const featureList: FeatureProps[] = [
 
     <div class="hidden lg:flex">
       <ToggleTheme />
-      <a
-        href="https://github.com/leoMirandaa/shadcn-vue-landing-page.git"
-        target="_blank"
+
+      <Button
+        as-child
+        size="sm"
+        variant="ghost"
+        aria-label="View on GitHub"
       >
-        <Button
-          size="sm"
-          variant="ghost"
+        <a
+          aria-label="View on GitHub"
+          href="https://github.com/leoMirandaa/shadcn-vue-landing-page.git"
+          target="_blank"
         >
           <Github class="size-5" />
-        </Button>
-      </a>
+        </a>
+      </Button>
     </div>
   </header>
 </template>
