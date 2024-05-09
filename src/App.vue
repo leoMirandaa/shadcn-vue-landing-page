@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero.vue";
+import Benefits from "./components/Benefits.vue";
 </script>
 
 <template>
   <Navbar />
   <Hero />
+  <Benefits />
 
   <div
     id="faq"
