@@ -62,13 +62,16 @@ const iconMap: Record<
 </script>
 
 <template>
-  <section class="container py-24 sm:py-34">
+  <section
+    id="benefits"
+    class="container py-24 sm:py-34"
+  >
     <div class="grid lg:grid-cols-2 place-items-center lg:gap-24">
       <div>
         <h2 class="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
-          Get unlimited access
+          Your Shortcut to Success
         </h2>
         <p class="text-xl text-muted-foreground mb-8">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
