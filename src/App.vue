@@ -3,11 +3,13 @@ import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero.vue";
 import Benefits from "./components/Benefits.vue";
 import Features from "./components/Features.vue";
+import Sponsors from "./components/Sponsors.vue";
 </script>
 
 <template>
   <Navbar />
   <Hero />
+  <Sponsors />
   <Benefits />
   <Features />
 
