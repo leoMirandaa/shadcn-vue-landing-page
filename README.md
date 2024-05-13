@@ -10,10 +10,11 @@ Live demo is now available: <a href="https://shadcn-vue-landing-page.vercel.app"
 - [x] Navbar
 - [x] Sidebar(mobile)
 - [x] Hero
+- [x] Sponsors
 - [x] Benefits
-- [x] Features 
+- [x] Features
+- [x] Pricing 
 - [ ] Team
-- [ ] Pricing
 - [ ] Frequently Asked Questions(FAQ)
 - [ ] ... More Sections Coming Soon
 
