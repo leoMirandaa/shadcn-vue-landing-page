@@ -4,6 +4,7 @@ import Hero from "./components/Hero.vue";
 import Benefits from "./components/Benefits.vue";
 import Features from "./components/Features.vue";
 import Sponsors from "./components/Sponsors.vue";
+import Pricing from "./components/Pricing.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Sponsors from "./components/Sponsors.vue";
   <Sponsors />
   <Benefits />
   <Features />
+  <Pricing />
 
   <div class="flex flex-col items-center justify-center pt-12">
     <h2 class="text-center text-2xl text-muted-foreground pb-24">
