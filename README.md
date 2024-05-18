@@ -13,6 +13,7 @@ Live demo is now available: <a href="https://shadcn-vue-landing-page.vercel.app"
 - [x] Sponsors
 - [x] Benefits
 - [x] Features
+- [x] Testimonials 
 - [x] Pricing 
 - [ ] Team
 - [ ] Frequently Asked Questions(FAQ)
