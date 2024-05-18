@@ -42,7 +42,7 @@ import { ArrowRight } from "lucide-vue-next";
         </p>
 
         <div class="space-y-4 md:space-y-0 md:space-x-4">
-          <Button class="w-5/6 md:w-1/4 font-bold mb-4 md:mb-0 group/arrow">
+          <Button class="w-5/6 md:w-1/4 font-bold group/arrow">
             Get Started
             <ArrowRight
               class="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform"
