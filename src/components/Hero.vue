@@ -52,6 +52,7 @@ import { ArrowRight } from "lucide-vue-next";
           <Button
             as-child
             variant="secondary"
+            class="w-5/6 md:w-1/4 font-bold"
           >
             <a
               href="https://github.com/leoMirandaa/shadcn-vue-landing-page.git"
