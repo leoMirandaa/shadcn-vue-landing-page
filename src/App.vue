@@ -4,6 +4,7 @@ import Hero from "./components/Hero.vue";
 import Benefits from "./components/Benefits.vue";
 import Features from "./components/Features.vue";
 import Sponsors from "./components/Sponsors.vue";
+import Testimonials from "./components/Testimonials.vue";
 import Pricing from "./components/Pricing.vue";
 </script>
 
@@ -13,6 +14,7 @@ import Pricing from "./components/Pricing.vue";
   <Sponsors />
   <Benefits />
   <Features />
+  <Testimonials />
   <Pricing />
 
   <div class="flex flex-col items-center justify-center pt-12">
