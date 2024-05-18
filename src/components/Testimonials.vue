@@ -110,10 +110,11 @@ const reviewList: ReviewProps[] = [
           <Card class="bg-muted/50 dark:bg-card">
             <CardContent class="pt-6 pb-0">
               <div class="flex gap-1 pb-6">
-                <Star
-                  v-for="item in [1, 2, 3, 4, 5]"
-                  class="size-4 fill-primary text-primary"
-                />
+                <Star class="size-4 fill-primary text-primary" />
+                <Star class="size-4 fill-primary text-primary" />
+                <Star class="size-4 fill-primary text-primary" />
+                <Star class="size-4 fill-primary text-primary" />
+                <Star class="size-4 fill-primary text-primary" />
               </div>
 
               "{{ review.comment }}"
