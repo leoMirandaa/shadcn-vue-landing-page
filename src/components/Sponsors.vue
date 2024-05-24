@@ -69,7 +69,10 @@ const iconMap: Record<
 </script>
 
 <template>
-  <section class="max-w-[75%] mx-auto pb-24 sm:pb-32">
+  <section
+    id="sponsors"
+    class="max-w-[75%] mx-auto pb-24 sm:pb-32"
+  >
     <h2 class="text-lg md:text-xl text-center mb-6">Our Platinum Sponsors</h2>
 
     <div class="mx-auto">
