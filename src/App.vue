@@ -6,6 +6,7 @@ import Features from "./components/Features.vue";
 import Sponsors from "./components/Sponsors.vue";
 import Testimonials from "./components/Testimonials.vue";
 import Pricing from "./components/Pricing.vue";
+import FAQ from "./components/FAQ.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Pricing from "./components/Pricing.vue";
   <Features />
   <Testimonials />
   <Pricing />
+  <FAQ />
 
   <div class="flex flex-col items-center justify-center pt-12">
     <h2 class="text-center text-2xl text-muted-foreground pb-24">
