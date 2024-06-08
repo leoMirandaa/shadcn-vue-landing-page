@@ -1,8 +1,20 @@
 {
   "name": "shadcn-vue-landing-page",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "private": true,
+  "description": "Shadcn/Vue Landing page template, Vue + Shadcn-vue + TypeScript + Tailwind.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Leopoldo Miranda",
+    "email": "leomirandadev@gmail.com",
+    "url": "https://github.com/leoMirandaa/shadcn-vue-landing-page.git"
+  },
+  "keywords": [
+    "vue",
+    "shadcn",
+    "shadcn/vue",
+    "landing-page"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
