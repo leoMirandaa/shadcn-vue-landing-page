@@ -8,6 +8,7 @@ import Sponsors from "./components/Sponsors.vue";
 import Testimonials from "./components/Testimonials.vue";
 import Pricing from "./components/Pricing.vue";
 import FAQ from "./components/FAQ.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
@@ -20,16 +21,11 @@ import FAQ from "./components/FAQ.vue";
   <Testimonials />
   <Pricing />
   <FAQ />
+  <Footer />
 
-  <div class="flex flex-col items-center justify-center pt-12">
+  <div class="flex flex-col items-center justify-center">
     <h2 class="text-center text-2xl text-muted-foreground pb-24">
       New sections in progress...
     </h2>
-    <a
-      href="https://github.com/leomirandaa"
-      target="_blank"
-      class="text-sm pb-8 underline"
-      >Made by Leo Miranda</a
-    >
   </div>
 </template>
