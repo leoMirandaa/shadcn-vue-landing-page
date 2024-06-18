@@ -1,7 +1,5 @@
 {
   "name": "shadcn-vue-landing-page",
-  "type": "module",
-  "private": true,
   "description": "Shadcn/Vue landing page template using Vue, Shadcn/Vue + TypeScript + Tailwind CSS.",
   "version": "0.1.1",
   "author": {
@@ -19,6 +17,8 @@
     "template",
     "responsive-design"
   ],
+  "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
