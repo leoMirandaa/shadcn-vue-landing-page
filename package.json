@@ -26,24 +26,24 @@
   },
   "dependencies": {
     "@selemondev/vue3-marquee": "^0.0.8",
-    "@vueuse/core": "^10.9.0",
+    "@vueuse/core": "^10.11.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "embla-carousel": "^8.1.1",
-    "embla-carousel-vue": "^8.1.1",
-    "lucide-vue-next": "^0.373.0",
-    "radix-vue": "^1.7.2",
+    "embla-carousel": "^8.1.5",
+    "embla-carousel-vue": "^8.1.5",
+    "lucide-vue-next": "^0.395.0",
+    "radix-vue": "^1.8.4",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
-    "vue": "^3.4.21"
+    "vue": "^3.4.29"
   },
   "devDependencies": {
-    "@types/node": "^20.12.7",
-    "@vitejs/plugin-vue": "^5.0.4",
+    "@types/node": "^20.14.5",
+    "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",
-    "tailwindcss": "^3.4.3",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
-    "vue-tsc": "^2.0.6"
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
   }
 }
