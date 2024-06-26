@@ -8,7 +8,7 @@ import Separator from "./ui/separator/Separator.vue";
     id="footer"
     class="container py-24 sm:py-32"
   >
-    <div class="p-10 bg-card border rounded-2xl">
+    <div class="p-10 bg-muted/50 dark:bg-card border rounded-2xl">
       <div
         class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8"
       >
@@ -18,7 +18,7 @@ import Separator from "./ui/separator/Separator.vue";
             class="flex font-bold items-center"
           >
             <ChevronsDown
-              class="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border"
+              class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white"
             />
 
             <h3 class="text-2xl">Shadcn-Vue</h3>
