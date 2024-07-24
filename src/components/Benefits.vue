@@ -84,7 +84,7 @@ const iconMap: Record<
         <Card
           v-for="({ icon, title, description }, index) in benefitList"
           :key="title"
-          class="bg-muted/50 dark:bg-card hover:bg-background transition-all delay-75 group/number"
+          class="bg-muted/50 dark:bg-card hover:bg-background dark:hover:bg-background transition-all delay-75 group/number"
         >
           <CardHeader>
             <div class="flex justify-between">
