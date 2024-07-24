@@ -27,7 +27,7 @@ import { ArrowRight } from "lucide-vue-next";
           class="max-w-screen-md mx-auto text-center text-5xl md:text-6xl font-bold"
         >
           <h1>
-            Experiece the
+            Experience the
             <span
               class="text-transparent bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text"
               >Shadcn/Vue
