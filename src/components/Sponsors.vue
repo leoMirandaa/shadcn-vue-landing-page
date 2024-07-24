@@ -78,6 +78,7 @@ const iconMap: Record<
     <div class="mx-auto">
       <Marquee
         class="gap-[3rem]"
+        :pauseOnHover="true"
         :fade="true"
         innerClassName="gap-[3rem]"
       >
