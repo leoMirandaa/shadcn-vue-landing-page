@@ -25,7 +25,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
-import { ChevronsDown, Github, Menu } from "lucide-vue-next";
+import { ChevronsDown, Menu } from "lucide-vue-next";
+import GithubIcon from "@/icons/GithubIcon.vue";
 import ToggleTheme from "./ToggleTheme.vue";
 
 interface RouteProps {
@@ -214,7 +215,7 @@ const isOpen = ref<boolean>(false);
           href="https://github.com/leoMirandaa/shadcn-vue-landing-page.git"
           target="_blank"
         >
-          <Github class="size-5" />
+          <GithubIcon class="size-5" />
         </a>
       </Button>
     </div>
