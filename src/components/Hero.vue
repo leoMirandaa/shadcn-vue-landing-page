@@ -66,10 +66,11 @@ import { ArrowRight } from "lucide-vue-next";
       <div class="relative group mt-14">
         <!-- gradient shadow -->
         <div
-          class="absolute top-2 lg:-top-8 left-1/2 transform -translate-x-1/2 w-[90%] mx-auto h-24 lg:h-80 bg-primary/50 rounded-full blur-3xl"
+          class="absolute -top-6 right-12 w-[90%] h-12 lg:h-[80%] bg-primary/50 blur-3xl rounded-full img-shadow-animation"
         ></div>
+
         <img
-          class="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-t-primary/30"
+          class="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-t-primary/30 img-border-animation"
           :src="
             mode == 'light' ? 'hero-image-light.jpeg' : 'hero-image-dark.jpeg'
           "
@@ -84,3 +85,42 @@ import { ArrowRight } from "lucide-vue-next";
     </div>
   </section>
 </template>
+
+<style scoped>
+.img-shadow-animation {
+  animation-name: img-shadow-animation;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+.img-border-animation {
+  animation-name: img-border-animation;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes img-shadow-animation {
+  from {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  to {
+    opacity: 0.5;
+    transform: translateY(30px);
+  }
+}
+@keyframes img-border-animation {
+  from {
+    @apply border-t-primary/60;
+  }
+
+  to {
+    @apply border-t-primary/10;
+  }
+}
+</style>
