@@ -8,6 +8,7 @@ import Sponsors from "./components/Sponsors.vue";
 import Testimonials from "./components/Testimonials.vue";
 import Team from "./components/Team.vue";
 import Pricing from "./components/Pricing.vue";
+import Community from "./components/Community.vue";
 import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
 </script>
@@ -22,6 +23,7 @@ import Footer from "./components/Footer.vue";
   <Testimonials />
   <Team />
   <Pricing />
+  <Community />
   <FAQ />
   <Footer />
 
