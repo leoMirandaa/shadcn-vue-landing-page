@@ -21,7 +21,7 @@ import DiscordIcon from "@/icons/DiscordIcon.vue";
     <div class="container py-20 sm:py-20">
       <div class="lg:w-[60%] mx-auto">
         <Card
-          class="bg-background text-center flex flex-col items-center justify-center border-0"
+          class="bg-background shadow-none text-center flex flex-col items-center justify-center border-0"
         >
           <CardHeader>
             <CardTitle class="text-4xl md:text-5xl font-bold">
