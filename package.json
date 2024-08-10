@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@selemondev/vue3-marquee": "^0.0.8",
-    "@vueuse/core": "^10.11.0",
+    "@vueuse/core": "^10.11.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "embla-carousel": "^8.1.8",
