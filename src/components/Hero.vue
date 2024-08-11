@@ -105,22 +105,22 @@ import { ArrowRight } from "lucide-vue-next";
 
 @keyframes img-shadow-animation {
   from {
-    opacity: 1;
-    transform: translateY(0px);
+    opacity: 0.5;
+    transform: translateY(30px);
   }
 
   to {
-    opacity: 0.5;
-    transform: translateY(30px);
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
 @keyframes img-border-animation {
   from {
-    @apply border-t-primary/60;
+    @apply border-t-primary/10;
   }
 
   to {
-    @apply border-t-primary/10;
+    @apply border-t-primary/60;
   }
 }
 </style>
