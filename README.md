@@ -27,6 +27,7 @@ Live demo is now available: <a href="https://shadcn-vue-landing-page.vercel.app"
 - [x] Fully Responsive Design
 - [x] User Friendly Navigation
 - [x] Dark Mode
+- [x] Meta tags
 
 ## How to install
 
