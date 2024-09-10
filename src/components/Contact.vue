@@ -186,7 +186,7 @@ const handleSubmit = () => {
               <AlertCircle class="w-4 h-4" />
               <AlertTitle>Error</AlertTitle>
               <AlertDescription>
-                Your session has expired. Please log in again.
+                There is an error in the form. Please check your input.
               </AlertDescription>
             </Alert>
 
