@@ -239,6 +239,7 @@ const socialIcon = (socialName: string) => {
             :href="url"
             target="_blank"
             class="hover:opacity-80 transition-all"
+            :aria-label="`Visit our ${name} page`"
           >
             <component :is="socialIcon(name)" />
           </a>
