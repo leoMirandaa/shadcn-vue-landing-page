@@ -66,7 +66,7 @@ const handleSubmit = () => {
           <div>
             <div class="flex gap-2 mb-1">
               <Building2 />
-              <div class="font-bold">Find us</div>
+              <div class="font-bold">Find Us</div>
             </div>
 
             <div>742 Evergreen Terrace, Springfield, IL 62704</div>
@@ -75,7 +75,7 @@ const handleSubmit = () => {
           <div>
             <div class="flex gap-2 mb-1">
               <Phone />
-              <div class="font-bold">Call us</div>
+              <div class="font-bold">Call Us</div>
             </div>
 
             <div>+1 (619) 123-4567</div>
@@ -84,7 +84,7 @@ const handleSubmit = () => {
           <div>
             <div class="flex gap-2 mb-1">
               <Mail />
-              <div class="font-bold">Mail US</div>
+              <div class="font-bold">Mail Us</div>
             </div>
 
             <div>leomirandadev@gmail.com</div>
@@ -93,7 +93,7 @@ const handleSubmit = () => {
           <div>
             <div class="flex gap-2">
               <Clock />
-              <div class="font-bold">Visit us</div>
+              <div class="font-bold">Visit Us</div>
             </div>
 
             <div>

@@ -30,10 +30,4 @@ import Footer from "./components/Footer.vue";
   <Contact />
   <FAQ />
   <Footer />
-
-  <div class="flex flex-col items-center justify-center">
-    <h2 class="text-center text-2xl text-muted-foreground pb-24">
-      New sections in progress...
-    </h2>
-  </div>
 </template>
