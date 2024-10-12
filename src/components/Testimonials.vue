@@ -124,7 +124,7 @@ const reviewList: ReviewProps[] = [
               <div class="flex flex-row items-center gap-4">
                 <Avatar>
                   <AvatarImage
-                    src="https://github.com/radix-vue.png"
+                    src="https://www.radix-vue.com/logo.svg"
                     alt="@radix-vue"
                   />
                   <AvatarFallback>SV</AvatarFallback>
