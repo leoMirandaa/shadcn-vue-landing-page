@@ -26,16 +26,16 @@
   },
   "dependencies": {
     "@selemondev/vue3-marquee": "^0.0.8",
-    "@vueuse/core": "^10.11.0",
+    "@vueuse/core": "^11.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "embla-carousel": "^8.1.8",
-    "embla-carousel-vue": "^8.1.8",
-    "lucide-vue-next": "^0.424.0",
-    "radix-vue": "^1.9.3",
-    "tailwind-merge": "^2.4.0",
+    "embla-carousel": "^8.3.0",
+    "embla-carousel-vue": "^8.3.0",
+    "lucide-vue-next": "^0.452.0",
+    "radix-vue": "^1.9.7",
+    "tailwind-merge": "^2.5.3",
     "tailwindcss-animate": "^1.0.7",
-    "vue": "^3.4.36"
+    "vue": "^3.5.12"
   },
   "devDependencies": {
     "@types/node": "^20.14.5",
