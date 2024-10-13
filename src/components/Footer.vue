@@ -6,7 +6,7 @@ import Separator from "./ui/separator/Separator.vue";
 <template>
   <footer
     id="footer"
-    class="container py-24 sm:py-32"
+    class="container py-24 pb-16 sm:py-32 sm:pb-24"
   >
     <div class="p-10 bg-muted/50 dark:bg-card border rounded-2xl">
       <div
