@@ -15,37 +15,34 @@ const HowItWorksList: HowItWorksProps[] = [
     title: "Make a Difference with Every Contribution",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-    image: "roboto.png",
+    image: "soldier.svg",
   },
   {
     badgeTitle: "Discover",
     title: "Create an Impact with Every Choice",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, sint reiciendis quidem iure veritatis optio facere tenetur.",
-    image: "runner.png",
+    image: "soldier7.svg",
   },
   {
     badgeTitle: "Innovate",
     title: "Make Every Action Count",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, odit similique quasi sint.",
-    image: "pacheco.png",
+    image: "soldier6.svg",
   },
   {
     badgeTitle: "Collaborate",
     title: "Tackle this challenge together",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-    image: "gamestation.png",
+    image: "soldier5.svg",
   },
 ];
 </script>
 
 <template>
-  <section
-    id="features"
-    class="container py-24 sm:py-32"
-  >
+  <section id="features" class="container py-24 sm:py-32">
     <div class="text-center mb-8">
       <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
         How It Works
@@ -87,6 +84,7 @@ const HowItWorksList: HowItWorksProps[] = [
           :src="image"
           :alt="`Image describing ${title} `"
           className="w-[150px]  md:w-[250px] lg:w-[300px] mx-auto -scale-x-100 "
+          style="border-radius: 50%"
         />
         <div
           :class="[
